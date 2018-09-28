@@ -1,0 +1,11 @@
+
+
+.form-img-preview {
+    width: 320px;
+    height: 200px;
+    margin: 7px auto;
+    background-position: 50%;
+    background-size: cover;
+    border: 1px solid #ab2a19;
+    background-image: url(https://www.freeiconspng.com/uploads/no-image-icon-1.jpg)
+}
