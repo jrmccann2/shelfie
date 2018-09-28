@@ -24,6 +24,8 @@ app.post('/api/product', controller.post);
 
 app.get('/api/inventory', controller.get);
 
+app.delete('/api/deleteproduct/:id', controller.delete);
+
 app.listen(port, () => {
     console.log(`Docked at port: ${port}`)
 })

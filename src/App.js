@@ -31,7 +31,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Dashboard inventory={this.state.inventory}/>
+        <Dashboard inventory={this.state.inventory} refreshInventory={this.getInventory}/>
         <Form refreshInventory={this.getInventory}/>
         <Header />
       </div>
